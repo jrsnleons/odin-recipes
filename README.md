@@ -5,3 +5,4 @@ Skills showcased:
 - html boilerplate
 - html use of ordered and unordered list, img, and a tags
 - basic security of img tags
+- basic css styling
