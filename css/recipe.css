@@ -1,0 +1,71 @@
+body {
+    background-color: #1F2833;
+    font-family: 'Montseratt', sans-serif;
+    color: white;
+}
+
+.title-page {
+    text-align: center;
+    color: #66FCF1;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.img-container {
+    width: 40rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 0.5rem;
+    margin: auto;
+}
+
+.img-container:hover img{
+    width: 42rem;
+}
+
+
+img {
+    width: 40rem;
+    transition: ease-out width 2s;
+}
+
+.text-container{
+    width: 40rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.section-container {
+    margin: 1rem 0rem ;
+    box-shadow: inset;
+    background-color: #26303d;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.section-container .h3{
+    color: #45A29E;
+    font-size: 48px;
+}
+
+
+.section-container:hover {
+    background-color: #303d4d;
+}
+
+a{
+    padding: 0.5rem 1rem;
+    background-color: #26303d;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+a:hover{
+    background-color: #303d4d;
+}
